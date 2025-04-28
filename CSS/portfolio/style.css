@@ -1,0 +1,88 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:black;
+    padding: 0px 20px;
+}
+header img{
+    height: 100px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+}nav li a{
+    color: rgb(89, 201, 239);
+    font-size: 22px;
+    text-decoration: none;
+}
+section{
+    max-width: 1280px;
+    margin: auto;
+    font-size: 26px;
+}
+#banner{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding:0px 10px;
+}
+span{
+    color: rgb(226, 10, 21);
+}
+.buttons>button{
+    padding: 10px 20px;
+    border-radius:20px;
+    background-color: black;
+    font-size: 20px;
+    color: white;
+}
+.buttons>button:nth-child(1):hover{
+    background-color: transparent;
+    border: 2px solid rgb(216, 111, 19);
+    color: black;
+}
+.buttons>button:nth-child(1):hover{
+    background-color: green;
+}
+h3{
+    align-items: center;
+}
+.vegpickles{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10px;
+    gap: 20px;
+}
+.veg{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+    margin: 20px 0px;
+    gap: 20px;
+}
+.veg>image{
+    box
+
+}
+
+
+
+
+@media (max-width:560px){
+    header{
+        flex-direction: column;
+        padding: 20px;
+    }
+    #banner{
+        flex-direction: column;
+        padding: 10px;
+        gap: 10px;
+    }
+}

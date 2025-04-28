@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration form</title>
+</head>
+<body>
+    <header><h1>Employee Registration Form:</h1></header>
+    <p>Fill out the form carefully for registration.</p>
+    <form action="main.py">
+        <label for="name"><strong>Employee Name:</strong></label><br><br>
+        <input type="text" id="name" placeholder="Enter first name">
+        <input type="text" placeholder="Enter middle name">
+        <input type="text" placeholder="Enter last name"><br><br>
+        <label for="idnum"><strong>Emlpoyee Id:</strong></label>
+        <input type="number" name="id" id="idnum" placeholder="Enter Id number"><br><br>
+        <label for="pwd"><strong>Login Password:</strong></label>
+        <input type="password" name="password" id="pwd" placeholder="Enter your password"><br><br>
+        <label for="date"><strong>Birth Date:</strong></label>
+        <input type="date" name="" id="date"><br><br>
+        <label for=""><strong>Gender:</strong></label>
+        <input type="radio" id="male" name="Gender" value="1">
+        <label for="male">male</label>
+        <input type="radio" id="female" name="Gender" value="2">
+        <label for="female">female</label><br><br>
+        <label for="add"><strong>Adress:</strong></label>
+        <input type="text" id="add" placeholder="Enter street name">
+        <input type="text" id="add" placeholder="Enter city name">
+        <input type="number" placeholder="Enter zip code/postal"><br><br>
+        <label for="mail"><strong>Employee E-Mail:</strong></label>
+        <input type="email" name="" id="mail" placeholder="Enter your e-mail id"><br><br>
+        <label for="num"><strong>Mobile Number:</strong></label>
+        <input type="number" id="num" placeholder="Enter mobile number">
+        <label for="num2"><strong>Alterntive number:</strong></label>
+        <input type="number" id="num2" placeholder="optional"><br><br>
+        <label for=""><strong>Languages can speak:</strong></label>
+        <input type="checkbox" id="en" name="lang" value="enlish">
+        <label for="en">English</label>
+        <input type="checkbox" id="hin" name="lang" value="Hindi">
+        <label for="hin">Hindi</label>
+        <input type="checkbox" id="tel" name="lang" value="telugu">
+        <label for="tel">Telugu</label><br><br>
+        <label for="img"><strong>Photo:</strong></label>
+        <input type="file" name="photo" id="img"><br><br>
+        <label for="sign"><strong>Signature:</strong></label>
+        <input type="file" name="Signature" id="sign"><br><br>
+        <input type="button" value="Submit">
+    </form>
+</body>
+</html>
