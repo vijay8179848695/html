@@ -55,8 +55,10 @@ a = 5, b = 2;
 x = a++ + b;
 console.log(x, a)
 
-a = 5, b = 2;
+
+
 // ternary operator
+a = 5, b = 2;
 const c = (a >= b) ? a : b;
 console.log(c)
 
