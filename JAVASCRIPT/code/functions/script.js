@@ -77,3 +77,53 @@ console.log(arr3)
 let [a, ...c] = [6, 7, 8, 9, 10];
 let b=[5,...[4,3],...[5,4],3]
 console.log(b)
+
+function sum(a,b)
+{
+    return a+b;
+}
+let res=sum(32,43);
+console.log(res)
+
+
+const sb=function(a,b)
+{
+    return a+b;
+}
+console.log(sb(4,5))
+
+//task
+function strLen(a)
+{
+    return a.length;
+}
+console.log(strLen("vijay"))
+//function expression
+let x=function(a)
+{
+    return a.length;
+}
+console.log(x("vijay"))
+//arrow function
+let y=(a)=>a.length
+console.log(y("vijay"))
+
+/*let z=(a,b)=>a-b
+console.log(z(19,12))*/
+
+//closure
+function outer ()
+{
+    let x = 10;
+    function inner(){
+        x++;
+        console.log(x)
+    }
+    return inner;
+}
+let z = outer()  // let z = inner
+console.log(z)
+z() //11
+z() //12
+z() //13
+
